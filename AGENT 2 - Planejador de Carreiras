@@ -179,3 +179,156 @@ OBJETIVO:
 - Transição: destacar transferência de skills
 - Crescimento: focar em skills avançadas
 \
+
+```txt
+Vejo que você escolheu Analista de Dados Financeiros (BI) e tem 6 horas por semana para estudar. Perfeito!
+
+Como seu objetivo é crescer na função atual e otimizar processos, focaremos em ferramentas que trazem resultados rápidos na automatização de rotinas financeiras (adeus, planilhas manuais!).
+
+Vou montar agora seu plano completo personalizado...
+
+🧩 VISÃO DO DIA A DIA
+Como é o trabalho de um(a) Analista de Dados Financeiros (BI):
+
+Extração e limpeza de dados de sistemas ERP ou múltiplas planilhas de Excel.
+
+Automatização de rotinas de fechamento mensal usando ETL (Extract, Transform, Load).
+
+Criação e manutenção de Dashboards Gerenciais para acompanhamento de KPIs (Receita, Despesas, Margem, EBITDA).
+
+Análise de variações (Orçado x Realizado) para identificar desvios financeiros.
+
+Apresentação de insights baseados em dados para a diretoria ou gestão financeira.
+
+🧠 MAPA DE SKILLS
+CORE SKILLS (essenciais):
+
+Excel Avançado & Power Query: O coração da área financeira; saber limpar e transformar dados aqui é vital.
+
+Power BI (Modelagem e DAX): Para criar visualizações dinâmicas e cálculos financeiros complexos.
+
+Storytelling com Dados: Saber traduzir números frios em recomendações de negócio.
+
+NICE-TO-HAVE (complementares):
+
+SQL: Para extrair dados diretamente do banco de dados da empresa sem depender de relatórios em CSV.
+
+Python (Pandas): Para automações mais pesadas ou análise preditiva futura.
+
+FERRAMENTAS E TECNOLOGIAS:
+
+Microsoft Excel (foco em Power Pivot e Power Query).
+
+Microsoft Power BI Desktop e Service.
+
+SQL Server (ou o banco de dados que sua empresa utiliza).
+
+📅 ROADMAP DE 90 DIAS
+ADAPTADO PARA: 6 horas/semana (Sugestão: 1h de seg a qui + 2h no fim de semana)
+
+MÊS 1 - FUNDAMENTOS DE ETL E VISUALIZAÇÃO
+SEMANA 1-2: Dominando o Tratamento de Dados (Power Query)
+
+Aprender a conectar diferentes fontes de dados (Excel, CSV, Web) no Power BI/Excel.
+
+Dominar as etapas de limpeza no Power Query (remover linhas, substituir valores, tipos de dados).
+
+Prática: Pegar uma planilha financeira "suja" do seu trabalho atual e automatizar a limpeza dela.
+
+SEMANA 3-4: Modelagem de Dados (Star Schema)
+
+Entender a diferença entre Tabela Fato (transações) e Tabela Dimensão (cadastros).
+
+Criar relacionamentos corretos entre tabelas (1 para muitos).
+
+Meta: Criar um modelo de dados simples conectando "Vendas/Receitas" com "Clientes" e "Calendário".
+
+MÊS 2 - ANÁLISE E CÁLCULOS (DAX)
+SEMANA 5-6: DAX Básico para Finanças
+
+Aprender medidas base: SOMA, MÉDIA, CONTAGEM.
+
+Aprender medidas de tempo: CALCULATE, SAMEPERIODLASTYEAR (comparar com ano anterior), DATESYTD (acumulado do ano).
+
+Foco: Calcular totais de receitas e despesas de forma dinâmica.
+
+SEMANA 7-8: DAX Intermediário e KPIs
+
+Criar medidas de variação (% de crescimento, % de margem).
+
+Uso de condicionais (IF/SWITCH) para categorizar contas financeiras.
+
+Meta: Substituir fórmulas complexas de Excel (PROCV/SE) por medidas DAX limpas.
+
+MÊS 3 - PORTFÓLIO E OTIMIZAÇÃO
+SEMANA 9-10: Visualização e Design de Dashboards
+
+Melhores práticas de visualização (evitar excesso de cores, escolher o gráfico certo).
+
+Criação de menus de navegação e filtros (segmentação de dados).
+
+Foco: Criar um layout executivo e limpo para apresentação financeira.
+
+SEMANA 11-12: SQL Básico e Publicação
+
+Aprender comandos básicos: SELECT, FROM, WHERE, GROUP BY (para puxar dados brutos).
+
+Como publicar o relatório no Power BI Service e configurar atualização agendada.
+
+Meta: Finalizar o projeto de portfólio.
+
+🚀 PROJETO DE PORTFÓLIO
+PROJETO: Dashboard de DRE Gerencial Automatizado
+
+O QUE FAZER: Você deve criar um dashboard interativo que simule uma Demonstração do Resultado do Exercício (DRE). Se não puder usar dados reais da sua empresa por confidencialidade, crie um dataset fictício no Excel com: Data, Conta Contábil, Centro de Custo e Valor.
+
+ENTREGÁVEIS:
+
+Uma página de visão geral com Cards (Receita Total, Lucro Líquido, Margem %).
+
+Um gráfico de tendência mensal (Linha) comparando Ano Atual vs Ano Anterior.
+
+Uma matriz (tabela dinâmica) que permita abrir a hierarquia das contas (ex: Despesas -> Despesas Admin -> Salários).
+
+CRITÉRIOS DE ACEITAÇÃO:
+
+O relatório deve permitir filtrar por Mês, Ano e Centro de Custo.
+
+As cores devem indicar status (Verde para positivo/meta batida, Vermelho para negativo).
+
+Os dados devem ser carregados via Power Query, sem alterações manuais na fonte.
+
+DICA: Use a função "dCalendario" no Power BI para facilitar comparações temporais (Mês a Mês, Ano a Ano), isso impressiona muito gestores financeiros.
+
+💬 ROTEIRO DE ENTREVISTAS
+(Focado em promoção interna ou novas vagas de BI Financeiro)
+
+PERGUNTA 1: Como você garante a integridade dos números no Power BI? COMO RESPONDER: "Eu sempre começo validando os totais na etapa de extração (Power Query) comparando com a fonte original. Além disso, crio medidas de verificação (check figures) no dashboard que alertam caso a soma das partes não bata com o total geral, garantindo que nenhuma transação foi perdida no filtro."
+
+PERGUNTA 2: Qual a vantagem de usar Power BI em vez de Excel para finanças? COMO RESPONDER: "O Excel é excelente para input e análises ad-hoc, mas o Power BI oferece governança, automação de ETL (evitando o 'copia e cola' manual) e capacidade de lidar com milhões de linhas de histórico sem travar, além da segurança no compartilhamento da informação."
+
+PERGUNTA 3: O que é DAX e dê um exemplo de uso financeiro. COMO RESPONDER: "DAX é a linguagem de fórmulas do Power BI. Um exemplo clássico que uso é a função CALCULATE combinada com SAMEPERIODLASTYEAR para criar automaticamente uma análise de 'Variação YoY' (Year over Year), permitindo ver o crescimento da empresa sem precisar criar colunas auxiliares manuais."
+
+PERGUNTA 4: Como você lidaria com dados financeiros que vêm 'sujos' ou despadronizados? COMO RESPONDER: "Utilizo o Power Query para padronizar. Por exemplo, se o nome de um fornecedor aparece escrito de formas diferentes, crio uma tabela 'De-Para' ou uso as ferramentas de transformação de texto e preenchimento condicional para limpar os dados antes que eles entrem no modelo de análise."
+
+PERGUNTA 5: Você sabe usar SQL? COMO RESPONDER: "Tenho conhecimentos fundamentais para realizar consultas de extração. Sei utilizar SELECT para escolher colunas, WHERE para filtrar períodos ou categorias específicas e GROUP BY para agregar valores antes de levar para a ferramenta de visualização, o que otimiza a performance do relatório."
+
+🎓 TRILHA DIO RECOMENDADA
+TRILHA: Formação Power BI Analyst
+
+POR QUE ESSA TRILHA: Esta formação cobre exatamente o ciclo de vida que um analista financeiro precisa: começa conectando dados (ETL), passa pela modelagem (coração do BI financeiro) e termina na visualização e publicação. É a base técnica mais sólida para sair das planilhas.
+
+PRÓXIMOS PASSOS:
+
+Acesse dio.me
+
+Busque por "Formação Power BI Analyst"
+
+Inscreva-se gratuitamente
+
+Siga o cronograma junto com este roadmap (focando nos módulos de Power Query e DAX primeiro).
+
+✨ Seu plano está pronto!
+
+Lembre-se: o mais importante é a constância, não a velocidade. Como você tem 6 horas semanais, tente estudar em blocos curtos durante a semana para manter o conteúdo fresco.
+```
